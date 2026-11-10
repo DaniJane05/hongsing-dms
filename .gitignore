@@ -1,0 +1,49 @@
+# ==========================================================
+# Hong Sing LKRR DMS - Git Ignore
+# ==========================================================
+
+# Sensitive credentials
+/config/secrets.php
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+
+# Composer dependencies
+/vendor/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary and diagnostic scripts
+/phpinfo.php
+/check_ssl.php
+/ml_test.php
+/test_email.php
+/test_session.php
+/test_textbee.php
+/test_tls.php
+
+# User-uploaded files and private records
+/uploads/*
+!/uploads/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

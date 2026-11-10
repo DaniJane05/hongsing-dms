@@ -1,0 +1,28 @@
+Hong Sing DMS - Delivery TAT Prediction Model
+Model Version: RF-TAT-v2-incidents
+Dataset: SYNTHETIC / GENERATED DATA
+IMPORTANT: Metrics are prototype results on generated data, not actual company historical performance.
+
+Training records: 1600
+Testing records: 400
+MAE: 10.3151 minutes
+RMSE: 13.2480 minutes
+R2: 0.9510
+Interpretation: High fit on synthetic test data
+
+Predictive Features:
+- weight_kg
+- priority_level
+- route_distance_km
+- estimated_route_time_minutes
+- driver_rating
+- driver_total_deliveries
+- driver_delay_rate
+- driver_verified_violation_rate
+- truck_capacity_kg
+- truck_current_load_kg
+- truck_breakdown_rate
+
+Excluded identifiers:
+- driver_id
+- truck_id
