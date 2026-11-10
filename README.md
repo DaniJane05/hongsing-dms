@@ -117,4 +117,4 @@ The system provides four types of user accounts:
 Project Title: A Delivery Management System using Machine Learning for Hong Sing LKRR Commercial
 Institution: Global Reciprocal Colleges
 Program: Bachelor of Science in Information Technology
-Repository: 
+Repository: https://github.com/DaniJane05/hongsing-dms.git
